@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Movie App</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1>Movie Search</h1>
+    <label for="movie-title">Enter a movie title:</label>
+    <input type="text" name="movie-title" id="movie-title" />
+    <button onclick="fetchMovie()" id="submit">Search</button>
+    <p id="loading" style="display: none">Loading...</p>
+    <div id="movie-info"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
